@@ -17,7 +17,7 @@
 					<file>${project.build.directory}/tecktutor-hello-app-1.0.0.jar</file>
 				</configuration>
 			</plugin>
-		</pulgins>
+		</plugins>
 	</build>
 	
 	<profiles>
