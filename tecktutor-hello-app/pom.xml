@@ -3,6 +3,22 @@
   <groupId>com.amdocs</groupId>
   <artifactId>tecktutor-hello-app</artifactId>
   <version>1.0.0</version>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<groupId>com.amdocs</groupId>
+					<artifactId>tecktutor-hello-app</artifactId>
+					<version>1.0.0</version>
+					<packaging>jar</packaging>
+					<file>${project.build.directory}/tecktutor-hello-app-1.0.0.jar</file>
+				</configuration>
+			</plugin>
+		</pulgins>
+	</build>
 	
 	<profiles>
 		<profile>
